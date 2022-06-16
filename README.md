@@ -1,7 +1,10 @@
 # 01-code-refactor-challenge
 On-the-job ticket / feature request challenge
-
-### In this project I am tasked with refactoring existing code to ensure accessibility and reusability standards are met.
+<br/>
+<br/>
+## In this project I am tasked with refactoring existing code to ensure accessibility and reusability standards are met.
+<br/>
+<br/>
 
 ## User Story
 
@@ -10,6 +13,7 @@ AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 ```
+<br/>
 
 ## Acceptance Criteria
 
@@ -26,11 +30,15 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
+<br/>
 
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
 
+![](./assets/images/website-mockup.png)
+
+<br/>
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
