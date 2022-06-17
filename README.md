@@ -40,5 +40,9 @@ The following image shows the web application's appearance and functionality:
 
 <br/>
 
+## Link to Live Site
+
+https://daliangrullon.github.io/01-code-refactor-challenge/
+
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
