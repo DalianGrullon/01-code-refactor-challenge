@@ -1,4 +1,4 @@
-# 01-code-refactor-challenge
+# Code Refactoring for Accessibilty
 On-the-job ticket / feature request challenge
 <br/>
 <br/>
