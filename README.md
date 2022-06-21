@@ -42,7 +42,7 @@ The following image shows the web application's appearance and functionality:
 
 ## Link to Live Site
 
-https://daliangrullon.github.io/01-code-refactor-challenge/
+https://daliangrullon.github.io/code-refactoring-for-accessibility/
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
