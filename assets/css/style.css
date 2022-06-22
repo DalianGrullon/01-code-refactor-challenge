@@ -1,4 +1,8 @@
 /* General Styling */
+:root {
+    --primary-text-color: #fff;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -23,12 +27,19 @@ p {
     margin-left: 25px;
 }
 
+.primary-font {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.secondary-font {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /* Header and Navigational Bar */
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: var(--primary-text-color);
 }
 
 h1 {
@@ -44,7 +55,6 @@ nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -58,7 +68,7 @@ li {
 }
 
 a {
-    color: #ffffff;
+    color: var(--primary-text-color);
     text-decoration: none;
 }
 
@@ -72,71 +82,31 @@ a {
     background-position: center;
 }
 
-/* Container Styling for Leftmost Sections */
+/* Content Section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* SEO Section */
-.search-engine-optimization {
+.content-container {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: var(--primary-text-color);
 }
 
-.search-engine-optimization img {
+.content-container img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.content-container h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Online Reputation Mangement Section */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/* Social Media Marketing Section */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Container Styling for Rightmost Section (aside element) */
+/* Benefits Section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -144,56 +114,20 @@ a {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-/* Lead Generation Section */
-.benefit-lead {
+.benefits-container {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--primary-text-color);
 }
 
-.benefit-lead h3 {
+.benefits-container h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Brand Awareness Section */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Cost Management Section */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost img {
+.benefits-container img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -203,7 +137,6 @@ a {
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
