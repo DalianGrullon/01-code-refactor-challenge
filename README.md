@@ -1,5 +1,5 @@
 # Code Refactoring for Accessibilty
-On-the-job ticket / feature request challenge
+Adjusting initial code to optimize accessibility standards
 <br/>
 <br/>
 ## In this project I am tasked with refactoring existing code to ensure accessibility and reusability standards are met.
